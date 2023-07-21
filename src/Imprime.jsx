@@ -6,7 +6,6 @@ function CalculoImprime({calcular}) {
     return <h1>No hay datos</h1>;
   }
   const resultado =calcular[calcular.length-1];
-  const perrito = triangulo()
   return (
     <div>
         <div>triangulo: {resultado.triangulo}</div>
