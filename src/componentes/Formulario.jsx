@@ -10,7 +10,11 @@ function Formulario({ crearCalculo }) {
 
   return (
     <form onSubmit={formSubmit}>
-      <input type="number" placeholder="hola" onChange={(e)=> setNumber(e.target.value)}/>
+      <input
+        type="number"
+        placeholder="hola"
+        onChange={(e) => setNumber(e.target.value)}
+      />
       <button>guardar</button>
     </form>
   );

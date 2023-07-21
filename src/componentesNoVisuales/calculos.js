@@ -1,6 +1,4 @@
-export const calcular = [
-  
-];
+export const calcular = [];
 
 export const triangulo = (e) => {
   let value = parseInt(e.target.value);
@@ -9,7 +7,7 @@ export const triangulo = (e) => {
     a += i;
   }
   //console.log(a);
-  return a
+  return a;
 };
 
 export const fibo = (e) => {
@@ -20,7 +18,7 @@ export const fibo = (e) => {
     sol[i] = sol[i - 1] + sol[i - 2];
   }
   //console.log(sol[value]);
-  return sol[value]
+  return sol[value];
 };
 
 export const primo = (e) => {
@@ -40,5 +38,5 @@ export const primo = (e) => {
     }
   }
   //console.log(caja[value - 1]);
-  return caja[value - 1]
+  return caja[value - 1];
 };

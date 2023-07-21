@@ -1,7 +1,7 @@
-import CalculoImprime from "./Imprime";
-import Formulario from "./Formulario";
+import CalculoImprime from "./componentes/Imprime";
+import Formulario from "./componentes/Formulario";
 import { useState, useEffect } from "react";
-import { calcular as data} from "./calculos";
+import { calcular as data } from "./componentesNoVisuales/calculos";
 
 function App() {
   const [calcular, setCalcular] = useState([]);
